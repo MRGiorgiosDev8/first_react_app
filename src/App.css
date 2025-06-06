@@ -1,0 +1,13 @@
+.h1-font {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    color: #84f688;
+    -webkit-text-stroke: 1px rgba(116, 116, 116, 0.825);
+    letter-spacing: 0.6px;
+}
+
+.custom-button, .custom-buttons {
+    -webkit-text-stroke: 0.2px white;
+}

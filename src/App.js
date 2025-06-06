@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="max-w-md mx-auto p-4">
-      <h1 className="text-2xl font-bold text-center   text-gray-800">Задачи</h1>
+      {/* <h1 className="text-2xl font-bold text-center   text-gray-800">Задачи</h1> */}
       
       <TodoForm onAdd={addTodo} />
       

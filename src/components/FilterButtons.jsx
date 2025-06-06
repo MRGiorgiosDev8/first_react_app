@@ -11,9 +11,9 @@ export default function FilterButtons({ filter, setFilter }) {
         <button
           key={f.value}
           onClick={() => setFilter(f.value)}
-          className={`px-4 py-2 rounded-md ${filter === f.value 
-            ? 'bg-green-500 text-white' 
-            : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
+          className={`px-4 py-2 rounded-md custom-buttons ${filter === f.value 
+            ? 'bg-[#84e187] text-white font-medium' 
+            : 'bg-gray-200 text-[#686868] font-medium hover:bg-gray-300'}`}
         >
           {f.label}
         </button>

@@ -11,7 +11,7 @@ export default function TodoForm({ onAdd }) {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mt-[8vh] mb-6 text-gray-800">
+      <h1 className="h1-font  text-center mt-[8vh] mb-6">
         Todo List
       </h1>
       
@@ -26,7 +26,7 @@ export default function TodoForm({ onAdd }) {
           />
           <button 
             type="submit"
-            className="px-4 py-2 bg-green-500 ml-3 text-white font-medium rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="px-4 custom-button py-2 transition-all ease-out duration-200 bg-[#84f688] ml-3 text-[#686868] font-medium rounded-lg hover:bg-[#84e187] hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500"
           >
             Добавить
           </button>
