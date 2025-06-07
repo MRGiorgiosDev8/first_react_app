@@ -11,7 +11,7 @@ export default function TodoForm({ onAdd }) {
 
   return (
     <>
-      <h1 className="h1-font  text-center mt-[8vh] mb-6">
+      <h1 className="h1-font  text-center mt-[6vh] mb-3">
         Todo List
       </h1>
       
@@ -22,11 +22,11 @@ export default function TodoForm({ onAdd }) {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             placeholder="Добавить новую задачу..."
-            className="flex-1 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           <button 
             type="submit"
-            className="px-4 custom-button py-2 transition-all ease-out duration-200 bg-[#84f688] ml-3 text-[#686868] font-medium rounded-lg hover:bg-[#84e187] hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="px-4 custom-button shadow-md py-2 transition-all ease-out duration-200 bg-[#84f688] ml-3 text-[#686868] font-medium rounded-lg hover:bg-[#84e187] hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500"
           >
             Добавить
           </button>

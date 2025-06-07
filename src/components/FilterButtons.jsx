@@ -11,7 +11,7 @@ export default function FilterButtons({ filter, setFilter }) {
         <button
           key={f.value}
           onClick={() => setFilter(f.value)}
-          className={`px-4 py-2 rounded-md custom-buttons transition-all ease-in-out duration-200 ${filter === f.value 
+          className={`px-4 py-2 rounded-md custom-buttons transition-all ease-in-out duration-200 shadow-md ${filter === f.value 
             ? 'bg-[#84e187] text-white font-medium' 
             : 'bg-gray-200 text-[#686868] font-medium hover:bg-gray-100'}`}
         >
