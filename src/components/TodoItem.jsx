@@ -9,7 +9,7 @@ export default function TodoItem({ todo, onToggle, onDelete }) {
       </span>
       <button 
         onClick={() => onDelete(todo.id)}
-        className="ml-3 px-3 py-1 bg-[#f66359] border-none font-normal shadow-md  text-white rounded transition-all ease-out duration-200 hover:bg-[#e54d42] focus:outline-none"
+        className="ml-3 px-3 py-1 bg-[#f66359] border-none font-normal shadow-md  text-white rounded-md transition-all ease-out duration-300 hover:bg-[#e54d42] hover:scale-95 focus:outline-none"
       >
         Удалить
       </button>
