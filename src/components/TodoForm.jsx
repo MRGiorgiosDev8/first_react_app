@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import toDoIcon from '../assets/images/to_do.svg';
 
 export default function TodoForm({ onAdd }) {
   const [inputValue, setInputValue] = useState('');
@@ -11,9 +12,15 @@ export default function TodoForm({ onAdd }) {
 
   return (
     <>
-      <h1 className="h1-font  text-center mt-[6vh] mb-3">
-        Todo List
-      </h1>
+       <h1 className="h1-font text-center mt-[6vh] mb-3 flex justify-center items-center">
+    Todo
+    <img 
+      src={toDoIcon}
+      alt="todo icon" 
+      className="w-16 h-16 opacity-90 mx-3" 
+    />
+    List
+  </h1>
       
       <div className="border border-gray-300 shadow-md rounded-lg p-4 max-w-md mx-auto">
         <form onSubmit={handleSubmit} className="flex mb-0">
