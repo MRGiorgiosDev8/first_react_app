@@ -17,7 +17,7 @@ export default function TodoForm({ onAdd }) {
     <img 
       src={toDoIcon}
       alt="todo icon" 
-      className="w-16 h-16 opacity-90" 
+      className="w-16 h-16 opacity-90 mb-4" 
     />
     List
   </h1>
