@@ -62,7 +62,7 @@ export default function FilterButtons({
       opacity: [1, 0],
       scale: [0, 2],
       duration: 600,
-      easing: 'easeOutQuad',
+      easing:'easeOutSine',
       complete: () => ripple.remove()
     });
   };
