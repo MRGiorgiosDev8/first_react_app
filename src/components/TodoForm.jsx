@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 import toDoIcon from '../assets/images/to_do.svg';
 
 export default function TodoForm({ onAdd }) {
@@ -12,15 +13,23 @@ export default function TodoForm({ onAdd }) {
 
   return (
     <>
-       <h1 className="h1-font text-center mt-[6vh] mb-3 flex justify-center items-center">
-    Todo
-    <img 
-      src={toDoIcon}
-      alt="todo icon" 
-      className="w-16 h-16 opacity-90 mb-4" 
-    />
-    List
-  </h1>
+      <h1 className="h1-font text-center mt-[6vh] mb-3 flex justify-center items-center">
+        Todo
+        <motion.img 
+          src={toDoIcon}
+          alt="todo icon" 
+          className="w-16 h-16 opacity-90 mb-4" 
+          initial={{ scale: 0 }} 
+          animate={{ scale: 1 }} 
+          transition={{
+            type: "spring",
+            stiffness: 250,
+            damping: 19,
+            delay: 0.2 
+          }}
+        />
+        List
+      </h1>
       
       <div className="border border-gray-300 shadow-md rounded-lg p-4 max-w-md mx-auto">
         <form onSubmit={handleSubmit} className="flex mb-0">

@@ -4,13 +4,14 @@ import TodoItem from './TodoItem';
 export default function TodoList({ todos, onToggle, onDelete }) {
   return (
     <motion.div
-      initial={{ scale: 0.95, opacity: 0 }}
+      initial={{ scale: 0.9, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ 
         type: "spring",
         stiffness: 200,
         damping: 15,
-        duration: 0.5
+        duration: 0.8,
+        delay: 0.7
       }}
       className="border border-gray-300 rounded-lg mb-7 shadow-sm overflow-hidden"
     >
@@ -41,7 +42,7 @@ export default function TodoList({ todos, onToggle, onDelete }) {
             transition={{
               delay: 0.2,
               type: "spring",
-              stiffness: 150
+              stiffness: 80
             }}
             className="px-4 py-6 text-center text-gray-500"
           >
