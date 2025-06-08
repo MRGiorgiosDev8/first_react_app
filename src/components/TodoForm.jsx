@@ -18,7 +18,7 @@ export default function TodoForm({ onAdd }) {
         <motion.img 
           src={toDoIcon}
           alt="todo icon" 
-          className="w-16 h-16 opacity-90 mb-4" 
+          className="w-16 h-16 opacity-80 mb-4" 
           initial={{ scale: 0 }} 
           animate={{ scale: 1 }} 
           transition={{
