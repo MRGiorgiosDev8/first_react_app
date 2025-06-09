@@ -42,7 +42,7 @@ export default function TodoForm({ onAdd }) {
           />
           <button 
             type="submit"
-            className="px-4 custom-button shadow-md py-2 transition-all ease-out duration-200 bg-[#84f688] ml-3 text-[#686868] font-medium rounded-lg hover:bg-[#84e187] hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="px-4 custom-button shadow-md py-2 transition-all ease-out duration-200 bg-[#84f688] ml-3 text-[#686868] font-medium rounded-lg hover:bg-[#84e187] hover:text-white hover:scale-95 focus:outline-none focus:ring-2 focus:ring-green-500"
           >
             Добавить
           </button>
