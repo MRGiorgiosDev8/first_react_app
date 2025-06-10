@@ -8,6 +8,19 @@
     letter-spacing: 0.6px;
 }
 
-.custom-button, .custom-buttons {
+.custom-button,
+.custom-buttons {
     -webkit-text-stroke: 0.2px white;
+    border-bottom: 0.8px solid rgb(194, 194, 194);
+    border-top: 0.8px solid rgb(194, 194, 194);
+    border-right: 1.1px solid rgb(200, 200, 200);
+    border-left: 1.1px solid rgb(200, 200, 200);
+}
+
+.custom-active-buttons, .custom-delete-button {
+    -webkit-text-stroke: 0.2px white;
+    border-bottom: 0.6px solid rgb(200, 200, 200);
+    border-top: 0.6px solid rgb(200, 200, 200);
+    border-right: 0.8px solid rgb(200, 200, 200);
+    border-left: 0.8px solid rgb(200, 200, 200);
 }

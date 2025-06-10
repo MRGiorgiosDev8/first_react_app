@@ -78,7 +78,7 @@ export default function FilterButtons({
           key={f.value}
           ref={el => buttonRefs.current[index] = el}
           onClick={(e) => handleClick(f.value, e)}
-          className="px-4 py-2 rounded-md font-medium shadow-md transition-colors relative overflow-hidden"
+          className="px-4 py-2 custom-active-buttons rounded-md font-medium shadow-md transition-colors relative overflow-hidden"
           style={{
             backgroundColor: filter === f.value ? '#84e187' : '#e5e7eb',
             color: filter === f.value ? '#fff' : '#686868'
