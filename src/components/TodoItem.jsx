@@ -3,7 +3,7 @@ export default function TodoItem({ todo, onToggle, onDelete }) {
     <li className={`flex items-center border border-gray-200 justify-between p-3 mb-2 rounded-lg ${todo.completed ? 'bg-gray-100' : 'bg-white'} shadow`}>
       <span 
         onClick={() => onToggle(todo.id)}
-        className={`flex-1 cursor-pointer transition-all ease-in-out duration-200 text-[#686868] ${todo.completed ? 'bg-green-300 rounded-md p-1' : 'text-[#686868'}`}
+        className={`flex-1 cursor-pointer transition-all ease-in-out duration-200 text-[#686868] ${todo.completed ? 'bg-[#a0f394] rounded-lg p-1 border-2 border-[white]' : 'text-[#686868'}`}
       >
         {todo.text}
       </span>

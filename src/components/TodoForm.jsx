@@ -13,7 +13,7 @@ export default function TodoForm({ onAdd }) {
 
   return (
     <>
-      <h1 className="h1-font text-center mt-[6vh] mb-3 flex justify-center items-center">
+      <h1 className="h1-font text-center mt-[6vh] mb-3 flex justify-center items-center shadow-md border border-gray-200 rounded-md">
         Todo
         <motion.img 
           src={toDoIcon}
